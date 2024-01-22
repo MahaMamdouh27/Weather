@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Task</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo@2x.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container my-4">
+            <img src="img/logo@2x.png">
+            <a class="navbar-brand fw-bolder text-uppercase ms-3 text-white" href="#">Weather</a>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
+                    <li class="nav-item">
+                        <a class="nav-link active px-3 text-white" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 text-white" aria-current="page" href="#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 text-white" aria-current="page" href="#Live_cameras">Live cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 text-white" aria-current="page" href="#photos">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 text-white" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="weather d-flex justify-content-center">
+        <div class="container">
+            <form class="div my-5 position-relative" id="SearchForm">
+                <input class="form-control w-100 text-white py-3" placeholder="find your location..." type="text" id="searchInput"/>
+                <button class="btn btn-primary position-absolute top-0 end-0 me-2 mt-2 text-white px-4 rounded rounded-5">find</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="weatherCards">
+        <div class="container">
+            <div class="row my-5 mx-auto" id="rowData">
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer py-4">
+        <div class="container">
+            <div class="div d-flex align-items-center justify-content-between">
+                <input class="form-control w-75 text-white my-5" placeholder="Search" type="text">
+                <div class="icons d-flex justify-content-center">
+                    <div class="items bg-black rounded-circle mx-1">
+                        <a href="https://www.facebook.com/" target="_blank"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div class="items bg-black rounded-circle mx-1">
+                        <a href="https://twitter.com/" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="items bg-black rounded-circle mx-1">
+                        <a href="https://www.pinterest.com/" target="_blank"><i
+                                class="fa-brands fa fa-pinterest-p"></i></a>
+                    </div>
+                    <div class="items bg-black rounded-circle mx-1">
+                        <a href="https://www.google.com/" target="_blank"><i
+                                class="fa-brands fa fa-google-plus-g"></i></a>
+                    </div>
+                </div>
+            </div>
+           
+            <p class="text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/media.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    
+
+</body>
+
+</html>
